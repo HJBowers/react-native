@@ -18,14 +18,6 @@ export default class PrimarySearch extends Component {
     )
   }
 
-  // appId: fRjp6PGkhFCRpGn_hfpTNg
-  // appSecret: RUlGs3oR9m7dlEp0iTWmtlYXGqhyLdAtBU8DKAhG19exCwhJZSbqaUBEjC8DMRgJ
-  //
-  // "access_token": "VmBEfhEEDZl3haVkpEEkJ5WR4DPLfa4NM8OMe1ybqO1d9g0w03ncwcZ8QBfbpZzOFrEnmOnTU6mU_Zt4e_GEBR_ehpjhr8xFE_3heEzTVVpbY2bKdStmYvMlXrAkWXYx",
-  // "expires_in": 15551999,
-  // "token_type": "Bearer"
-  //
-
   getData() {
     const credentials = {
       appId: config.consumer_key,
